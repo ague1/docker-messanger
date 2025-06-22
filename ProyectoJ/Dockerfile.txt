@@ -1,0 +1,6 @@
+
+FROM openjdk:21
+RUN apt-get update && apt-get install -y git
+RUN git clone --depth=1 https://github.com/ague1/Proyecto.git /app
+WORKDIR /app/ProyectoJava/out/production/ProyectoJava
+CMD ["java", "Main"]
