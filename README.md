@@ -21,7 +21,7 @@ Se creó una pequeña aplicación que imprime un mensaje en la terminal cuando s
   
 ## Cómo construir y ejecutar el contenedor
 
--docker build -t prueba-docker-git-node .
+- docker build -t prueba-docker-git-node .
 
 ## Ejecución del contenedor:
 - docker run --rm prueba-docker-git
