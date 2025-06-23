@@ -18,7 +18,7 @@ Se creó una pequeña aplicación que imprime un mensaje en la terminal cuando s
 - Construye una imagen de Docker.
 
 - Ejecuta el archivo principal de la aplicación
-- 
+  
 ## Cómo construir y ejecutar el contenedor
 
 -docker build -t prueba-docker-git-node .
