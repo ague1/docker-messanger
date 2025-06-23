@@ -10,7 +10,6 @@ public class Main {
         int numeroAletorio = new Random().nextInt(10);
         System.out.println("Adivina el numero");
         Scanner scanner = new Scanner(System.in);
-        System.out.println(numeroAletorio);
         while (attempts < 5){
             System.out.println("Ingresa un numero :");
             int numero = scanner.nextInt();
